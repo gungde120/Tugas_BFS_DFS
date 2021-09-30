@@ -18,7 +18,7 @@ Line 14: membuat set visited untuk melacak nodes.
 
 Line 15: membuat set queue digunakan untuk melacak node saat ini dalam antrian.
 
-Line 31: function BFS dipanggil dengan menaruh set visited yaitu daftar yang dikunjungi, graph, dan '1' untuk start node nya.
-
 Lines 18-28: penjelasan algoritma BFS : Pada awalnya, algoritma akan memeriksa dan menambahkan node awal ke daftar yang dikunjungi (visited) dan antrian (queue). Kemudian, ketika  pada queue terdapat node yang terhubung, queue akan mengeluarkan node. Kemudian akan menambahkan  node yang berhubungan tersebut ke queue jika belum dikunjungi, dan menandainya sebagai "dikunjungi".Algoritma ini 
 akan berlanjut sampai queue kosong.
+
+Line 31: function BFS dipanggil dengan menaruh set visited yaitu daftar yang dikunjungi, graph, dan '1' untuk start node nya.
