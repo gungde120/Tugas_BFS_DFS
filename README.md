@@ -4,7 +4,7 @@
 # DFS
 Lines 2-12: Membuat graph sesuai dengan tree dan angka yang berhubungan. Karena tidak ada tanda panah maka hubungan bisa dibolak-balik.
 
-Line 11: visited untuk membuat track pada nodes
+Line 11: membuat set visited untuk membuat track pada nodes
 
 Line 24: function dfs dipanggil dengan menaruh set visited, graph, dan '1' untuk start node nya.
 
